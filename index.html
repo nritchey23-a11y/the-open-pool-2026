@@ -1073,7 +1073,7 @@ function determineCutLine(competitors, currentPeriod) {
         madeCut.add(sorted[i].id);
       }
     }
-    return { cutScore: p50Score, cutPos, cutPlayerIds: madeCut };
+    return { cutScore: cutLineScore, cutPos, cutPlayerIds: madeCut };
   }
 }
 
